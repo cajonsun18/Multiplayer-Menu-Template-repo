@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/NGO_Minimal_Setup/NGO_Setup.unity
-    guid: 73ec113dcad09e64a9dd22972b2ee0d0
+    path: Assets/Multiplayer Menu Template/Scenes/StartUp.unity
+    guid: aaf0cd2df82a15744aca17bd53c7df9b
+  - enabled: 1
+    path: Assets/Multiplayer Menu Template/Scenes/MainMenu.unity
+    guid: 26f3069acbff44742ab02a730decda70
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
