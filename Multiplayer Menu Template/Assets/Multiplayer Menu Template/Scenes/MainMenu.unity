@@ -1930,6 +1930,7 @@ GameObject:
   - component: {fileID: 966021300}
   - component: {fileID: 966021299}
   - component: {fileID: 966021298}
+  - component: {fileID: 966021302}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2022,6 +2023,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &966021302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966021297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af1087fa527a221478da26c62827084b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &983497692
 GameObject:
   m_ObjectHideFlags: 0
@@ -2084,6 +2097,7 @@ GameObject:
   m_Component:
   - component: {fileID: 991522069}
   - component: {fileID: 991522070}
+  - component: {fileID: 991522071}
   m_Layer: 5
   m_Name: Host Panel
   m_TagString: Untagged
@@ -2121,6 +2135,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 991522068}
   m_CullTransparentMesh: 1
+--- !u!114 &991522071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991522068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33e3a3b5ffe4b6e4b9afb605ea040ccd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputFieldIPAdress: {fileID: 1923623233}
+  inputFieldPortAdress: {fileID: 2078700317}
+  defaultIPAdress: 127.0.0.1
+  defaultPortAdress: 7777
 --- !u!1 &1046898440
 GameObject:
   m_ObjectHideFlags: 0
@@ -3586,6 +3616,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1493981735}
   - component: {fileID: 1493981736}
+  - component: {fileID: 1493981737}
   m_Layer: 5
   m_Name: Client Panel
   m_TagString: Untagged
@@ -3623,6 +3654,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1493981734}
   m_CullTransparentMesh: 1
+--- !u!114 &1493981737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493981734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33e3a3b5ffe4b6e4b9afb605ea040ccd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputFieldIPAdress: {fileID: 172047166}
+  inputFieldPortAdress: {fileID: 1145521407}
+  defaultIPAdress: 127.0.0.1
+  defaultPortAdress: 7777
 --- !u!1 &1613404193
 GameObject:
   m_ObjectHideFlags: 0
